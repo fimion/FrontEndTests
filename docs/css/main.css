@@ -62,3 +62,19 @@ footer{
     padding: 60px;
     width:100%;
 }
+
+/** Fancy Effects **/
+
+
+.loop{
+    position:relative;
+    animation: loop 5s linear infinite;
+}
+
+@keyframes loop {
+    0% { top: 50px; left: 50px;}
+    25% { top: 50px; left: 200px;}
+    50% { top: 200px; left:200px;}
+    75% { top:200px; left: 50px;}
+    100% {top: 50px; left:50px;}
+}
