@@ -107,3 +107,46 @@ body{
     75% { top:90%; left: 10%;}
     100% {top: 10%; left:10%;}
 }
+
+.pointer{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+}
+
+.point-left{
+    border-right: 10px solid black;
+    border-left: none;
+}
+
+.point-right{
+    border-left:10px solid black;
+    border-right: none;
+}
+.point-up{
+    border-bottom: 10px solid black;
+    border-top: none;
+}
+.point-down{
+    border-top: 10px solid black;
+    border-bottom: none;
+}
+.pointer-20{
+    border-width: 20px;
+    height: 20px;
+    width: 20px;
+}
+.pointer-40{
+    border-width: 40px;
+    height: 40px;
+    width: 40px;
+}
+.pointer-80{
+    border-width: 80px;
+    height: 80px;
+    width: 80px;
+}
